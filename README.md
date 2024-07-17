@@ -32,5 +32,5 @@ Using `pip`, we can easliy install packages onto our virtual environment.
 > pip install name_of_package
 
 * For more understanding, feel free to check out these articles:
-https://python.land/virtual-environments/virtualenv#How_to_create_a_Python_venv
-https://python.land/virtual-environments/installing-packages-with-pip
+- https://python.land/virtual-environments/virtualenv#How_to_create_a_Python_venv
+- https://python.land/virtual-environments/installing-packages-with-pip
