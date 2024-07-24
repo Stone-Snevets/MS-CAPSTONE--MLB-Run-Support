@@ -7,6 +7,27 @@ Identify pitching factors that lead to a lack of offensive run support.
 ## Description
 Coming soon...
 
+## Features
+* Data Cleaning:
+  * Combining Multipe Factors
+  * Lambda Functions
+  * Loc and Iloc
+  * Pandas Dataframe Commands
+* EDA:
+  * Box Plots
+  * Histograms
+  * Pivot Tables
+  * Seaborn Correlation Matrices
+* Machine Learning:
+  * Decision Trees
+  * Determining Accuracy, Precision, MSE, RMSE, MAE, R2, Recall of a model
+  * K-Nearest Neighbor
+  * Logistic Regression
+  * Naive Bayes Theorum
+  * Normalizing Data
+  * Random Forests
+  * Train / Test Data Splitting
+
 ## Virtual Environment
 To better run this project, one may set up a virtual environment on their computer.
 * Create
