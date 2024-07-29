@@ -5,7 +5,20 @@ Identify pitching factors that lead to a lack of offensive run support.
 ### Date: August 4th, 2024
 
 ## Description
-Coming soon...
+Project to determine which statistics for MLB pitchers most likely lead to that pitcher's offense providing minimal run support.
+
+### Data Acquisition
+The data taken for this project originates from Baseball Savant.  They offer tons of statistical data for Major League Baseball.  The data can be sorted to the degree of liking by the user and can then be downloaded into a CSV file.  Here is the link to their home page:
+https://baseballsavant.mlb.com/
+
+### Data Cleaning
+Although the data from Baseball Savant is well kept, it isn't completely clean.  There were columns that needed to be dropped (such as a player ID number).  There were also columns that needed to be created.  The main column that required generating was the output column which indicates if a pitcher may have fallen prey to a lack of run support.  Once that was created, any columns with virtually no correlation to this new column were dropped as well.
+
+### Data Exploration
+Through the use of multiple graphs and maps, the data set was whittled down even further.  Multiple remaining columns showed irrelovant statistics and were thus removed.  Histograms showed which columns contained normal distributions of data, boxplots revealed outliers, and heat maps uncovered multicolinearity.
+
+### Machine Learning
+The factors left were then used to design and test multiple machine learning algorithms.  After testing, the winning model displayed a near 81 percent accuracy in predicting whether or not a pitcher is receiving ample run support.  Combning that with the correlations of each input variable with the output factor reveals which pitching statistic leads to the highest chance of losing support from one's offense.
 
 ## Features
 * Data Cleaning:
