@@ -20,12 +20,18 @@ Through the use of multiple graphs and maps, the data set was whittled down even
 ### Machine Learning
 The factors left were then used to design and test multiple machine learning algorithms.  After testing, the winning model displayed a near 81 percent accuracy in predicting whether or not a pitcher is receiving ample run support.  Combning that with the correlations of each input variable with the output factor reveals which pitching statistic leads to the highest chance of losing support from one's offense.
 
+## Results
+![Factor Outcome](Images/FinalBarPlot.png)
+
+Out of all the things a pitcher can do throughout a game, one that goes without saying ends up to be the leading factor to not receiving ample run support.  Ideally, a pitcher doesn't want to allow home runs, but doing so means that, statistically, the pitcher's offense won't provide as many runs of support.
+
 ## Features
 * Data Cleaning:
   * Combining Multipe Factors
   * Lambda Functions
   * Loc and Iloc
   * Pandas Dataframe Commands
+  * Bar Graphs
 * EDA:
   * Box Plots
   * Histograms
@@ -68,3 +74,21 @@ Using `pip`, we can easliy install packages onto our virtual environment.
 * For more understanding, feel free to check out these articles:
 https://python.land/virtual-environments/virtualenv#How_to_create_a_Python_venv
 https://python.land/virtual-environments/installing-packages-with-pip
+
+## Screenshots
+![CSV File](Images/output.png)
+![Lack Variable Creation](Images/CreateLackVariable.png)
+![Describe Data](Images/pd,describe.png)
+![Unearned Run Creation](Images/CreateUnearnedRuns.png)
+![True/False Split](Images/Pivot_TotalTrueFalse.png)
+![Median for Each](Images/Pivot_AllSplit.png)
+![Heat Map](Images/LastHeatMap.png)
+![Imports](Images/ML_Imports.png)
+![Split Data](Images/Split.png)
+![Logistic Regression](Images/LogisticRegression.png)
+![Decision Tree](Images/DecisionTree.png)
+![Random Forrest](Images/RandomForest.png)
+![Naive Bayes](Images/NaiveBayes.png)
+![K-Nearest Neighbor](Images/KNN.png)
+![ML Scores](Images/ML_FinalTally.png)
+![Correlations](Images/Correlations.png)
