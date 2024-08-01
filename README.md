@@ -22,8 +22,9 @@ The factors left were then used to design and test multiple machine learning alg
 
 ## Results
 ![Factor Outcome](Images/FinalBarPlot.png)
+![Factor Correlation](Images/FinalScatter.png)
 
-Out of all the things a pitcher can do throughout a game, one that goes without saying ends up to be the leading factor to not receiving ample run support.  Ideally, a pitcher doesn't want to allow home runs, but doing so means that, statistically, the pitcher's offense won't provide as many runs of support.
+It makes sense that allowing home runs contributes to lesser run support because a pitcher instantly lets up runs upon allowing a home run.  However, the correlation is negative which indicates that FEWER home runs let up leads to ones offense not contributing as much.
 
 ## Features
 * Data Cleaning:
