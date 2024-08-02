@@ -7,9 +7,12 @@ Identify pitching factors that lead to a lack of offensive run support.
 ## Description
 Project to determine which statistics for MLB pitchers most likely lead to that pitcher's offense providing minimal run support.
 
+## Report Links
+* [Full Report](https://www.overleaf.com/read/gcjqhngmrbzc#562953)
+* [Github Repository](https://github.com/Stone-Snevets/MS-CAPSTONE--MLB-Run-Support)
+
 ### Data Acquisition
-The data taken for this project originates from Baseball Savant.  They offer tons of statistical data for Major League Baseball.  The data can be sorted to the degree of liking by the user and can then be downloaded into a CSV file.  Here is the link to their home page:
-https://baseballsavant.mlb.com/
+The data taken for this project originates from [Baseball Savant](https://baseballsavant.mlb.com/).  They offer tons of statistical data for Major League Baseball.  The data can be sorted to the degree of liking by the user and can then be downloaded into a CSV file.
 
 ### Data Cleaning
 Although the data from Baseball Savant is well kept, it isn't completely clean.  There were columns that needed to be dropped (such as a player ID number).  There were also columns that needed to be created.  The main column that required generating was the output column which indicates if a pitcher may have fallen prey to a lack of run support.  Once that was created, any columns with virtually no correlation to this new column were dropped as well.
@@ -25,6 +28,14 @@ The factors left were then used to design and test multiple machine learning alg
 ![Factor Correlation](Images/FinalScatter.png)
 
 It makes sense that allowing home runs contributes to lesser run support because a pitcher instantly lets up runs upon allowing a home run.  However, the correlation is negative which indicates that FEWER home runs let up leads to ones offense not contributing as much.
+
+## Resources Used
+* Python
+  * Pandas
+  * Pyplot
+  * Seaborn
+  * Sk-Learn
+* Tableau
 
 ## Features
 * Data Cleaning:
@@ -47,6 +58,12 @@ It makes sense that allowing home runs contributes to lesser run support because
   * Normalizing Data
   * Random Forests
   * Train / Test Data Splitting
+
+## Links used for coding
+* https://datagy.io/pandas-conditional-column/
+* https://www.statology.org/what-is-a-strong-correlation/
+* https://www.geeksforgeeks.org/plotting-multiple-bar-charts-using-matplotlib-in-python/#
+* https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.bar.html
 
 ## Virtual Environment
 To better run this project, one may set up a virtual environment on their computer.
@@ -75,6 +92,14 @@ Using `pip`, we can easliy install packages onto our virtual environment.
 * For more understanding, feel free to check out these articles:
 https://python.land/virtual-environments/virtualenv#How_to_create_a_Python_venv
 https://python.land/virtual-environments/installing-packages-with-pip
+
+## References
+1. Bradbury, J.C.: Does the baseball labor market properly value pitchers? (2007)
+2. Gitter, S.R., Rhoads, T.A.: If you win they will come: fans care about winning in
+minor league baseball (2010)
+3. Goold, K.L., Aniga, R.N., Gray, P.B.: Sports under quarantine: A case study of
+major league baseball in 2020 (2020)
+4. McElroy, L.: Computer vision in baseball: The evolution of statcast
 
 ## Screenshots
 ![CSV File](Images/output.png)
