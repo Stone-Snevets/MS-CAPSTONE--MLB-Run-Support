@@ -27,7 +27,7 @@ The factors left were then used to design and test multiple machine learning alg
 ![Factor Outcome](Images/FinalBarPlot.png)
 ![Factor Correlation](Images/FinalScatter.png)
 
-It makes sense that allowing home runs contributes to lesser run support because a pitcher instantly lets up runs upon allowing a home run.  However, the correlation is negative which indicates that FEWER home runs let up leads to ones offense not contributing as much.
+It makes sense that allowing home runs contributes to lesser run support because a pitcher instantly lets up runs upon allowing a home run.  However, the correlation is negative which indicates that more home runs allowed lead to a better offensive support.  This is the complete opposite of what one would assume.  Letting up fewer home runs is better for pitching, but letting up more home runs means a pitcher's offense will support him more.
 
 ## Resources Used
 * Python
